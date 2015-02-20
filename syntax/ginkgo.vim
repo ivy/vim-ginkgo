@@ -24,7 +24,7 @@ highlight link ginkgoPendingGroups Comment
 syntax keyword ginkgoAssertions Expect Ω Consistently Eventually Should ShouldNot To ToNot NotTo
 highlight link ginkgoAssertions Constant
 
-syntax keyword ginkgoMatchers BeAssignableToTypeOf BeClosed BeEmpty BeEquivalentTo BeFalse BeNil BeNumerically BeSent BeTemporarily BeTrue BeZero ConsistOf ContainElement ContainSubstring Equal HaveKey HaveKeyWithValue HaveLen HaveOccurred HavePrefix HaveSuffix MatchError MatchJSON MatchRegexp Panic Receive
+syntax keyword ginkgoMatchers BeAssignableToTypeOf BeClosed BeEmpty BeEquivalentTo BeFalse BeNil BeNumerically BeSent BeTemporarily BeTrue BeZero ConsistOf ContainElement ContainSubstring Equal HaveKey HaveKeyWithValue HaveLen HaveOccurred HavePrefix HaveSuffix MatchError MatchJSON MatchRegexp Panic Receive Succeed
 highlight link ginkgoMatchers Function
 
 let b:current_syntax = 'ginkgo'
