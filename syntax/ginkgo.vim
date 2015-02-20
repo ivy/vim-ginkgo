@@ -10,7 +10,7 @@ unlet! b:current_syntax
 syntax keyword ginkgoCallbacks AfterEach AfterSuite BeforeEach BeforeSuite JustBeforeEach SynchronizedAfterSuite SynchronizedBeforeSuite
 highlight link ginkgoCallbacks Identifier
 
-syntax keyword ginkgoGroups Context Describe It
+syntax keyword ginkgoGroups Context Describe It By
 highlight link ginkgoGroups Statement
 
 syntax keyword ginkgoFocusedGroups FContext FDescribe FIt FMeasure
