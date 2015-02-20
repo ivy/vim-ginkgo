@@ -27,4 +27,24 @@ highlight link ginkgoAssertions Constant
 syntax keyword ginkgoMatchers BeAssignableToTypeOf BeClosed BeEmpty BeEquivalentTo BeFalse BeNil BeNumerically BeSent BeTemporarily BeTrue BeZero ConsistOf ContainElement ContainSubstring Equal HaveKey HaveKeyWithValue HaveLen HaveOccurred HavePrefix HaveSuffix MatchError MatchJSON MatchRegexp Panic Receive Succeed
 highlight link ginkgoMatchers Function
 
+" Agouti keywords
+
+syntax keyword ginkgoAgoutiCallbacks Background
+highlight link ginkgoAgoutiCallbacks Identifier
+
+syntax keyword ginkgoAgoutiGroups Feature Scenario Step
+highlight link ginkgoAgoutiGroups Statement
+
+syntax keyword ginkgoAgoutiFocusedGroups FFeature FScenario
+highlight link ginkgoAgoutiFocusedGroups Underlined
+
+syntax keyword ginkgoAgoutiPendingGroups PFeature PScenario XFeature XScenario
+highlight link ginkgoAgoutiPendingGroups Comment
+
+syntax keyword ginkgoAgoutiShortcuts Back CancelPopup Check ClearCookies Click CloseWindow ConfirmPopup CreatePage CustomPage DeleteCookie Destroy DoubleClick EnterPopupText Fill Forward Navigate NextWindow Refresh RunScript Screenshot Select SetCookie Size StartChromeDriver StartPhantomJS StartSelenium StopWebDriver Submit SwitchToFrame SwitchToRootFrame SwitchToWindow Uncheck
+highlight link ginkgoAgoutiShortcuts Function
+
+syntax keyword ginkgoAgoutiMatchers BeActive BeEnabled BeFound BeSelected BeVisible EqualElement HaveAttribute HaveCSS HaveLoggedError HaveLoggedInfo HavePopupText HaveText HaveTitle HaveURL MatchText
+highlight link ginkgoAgoutiMatchers Function
+
 let b:current_syntax = 'ginkgo'
