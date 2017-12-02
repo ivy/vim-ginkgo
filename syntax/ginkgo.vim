@@ -16,8 +16,11 @@ highlight link ginkgoGroups Statement
 syntax keyword ginkgoFocusedGroups FContext FDescribe FIt FMeasure FSpecify
 highlight link ginkgoFocusedGroups Underlined
 
-syntax keyword ginkgoPendingGroups PContext XContext PDescribe XDescribe PIt XIt PMeasure XMeasure PSpecify XSpecify
-highlight link ginkgoPendingGroups Comment
+syntax keyword ginkgoPendingGroups PContext PDescribe PIt PMeasure PSpecify
+highlight link ginkgoPendingGroups Todo
+
+syntax keyword ginkgoDisabledGroups XContext XDescribe XIt XMeasure XSpecify
+highlight link ginkgoDisabledGroups Comment
 
 " Gomega keywords
 
