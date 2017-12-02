@@ -10,13 +10,13 @@ unlet! b:current_syntax
 syntax keyword ginkgoCallbacks AfterEach AfterSuite BeforeEach BeforeSuite JustBeforeEach SynchronizedAfterSuite SynchronizedBeforeSuite
 highlight link ginkgoCallbacks Identifier
 
-syntax keyword ginkgoGroups Context Describe It By
+syntax keyword ginkgoGroups By Context Describe It Specify
 highlight link ginkgoGroups Statement
 
-syntax keyword ginkgoFocusedGroups FContext FDescribe FIt FMeasure
+syntax keyword ginkgoFocusedGroups FContext FDescribe FIt FMeasure FSpecify
 highlight link ginkgoFocusedGroups Underlined
 
-syntax keyword ginkgoPendingGroups PContext XContext PDescribe XDescribe PIt XIt PMeasure XMeasure
+syntax keyword ginkgoPendingGroups PContext XContext PDescribe XDescribe PIt XIt PMeasure XMeasure PSpecify XSpecify
 highlight link ginkgoPendingGroups Comment
 
 " Gomega keywords
