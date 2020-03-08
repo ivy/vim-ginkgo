@@ -15,16 +15,16 @@ unlet! b:current_syntax
 syntax keyword ginkgoCallbacks AfterEach AfterSuite BeforeEach BeforeSuite JustBeforeEach SynchronizedAfterSuite SynchronizedBeforeSuite
 highlight link ginkgoCallbacks Identifier
 
-syntax keyword ginkgoGroups By Context Describe It Specify
+syntax keyword ginkgoGroups By Context Describe DescribeTable Entry It Specify
 highlight link ginkgoGroups Statement
 
-syntax keyword ginkgoFocusedGroups FContext FDescribe FIt FMeasure FSpecify
+syntax keyword ginkgoFocusedGroups FContext FDescribe FDescribeTable FEntry FIt FMeasure FSpecify
 highlight link ginkgoFocusedGroups Underlined
 
-syntax keyword ginkgoPendingGroups PContext PDescribe PIt PMeasure PSpecify
+syntax keyword ginkgoPendingGroups PContext PDescribe PDescribeTable PEntry PIt PMeasure PSpecify
 highlight link ginkgoPendingGroups Todo
 
-syntax keyword ginkgoDisabledGroups XContext XDescribe XIt XMeasure XSpecify
+syntax keyword ginkgoDisabledGroups XContext XDescribe XDescribeTable XEntry XIt XMeasure XSpecify
 highlight link ginkgoDisabledGroups Comment
 
 " Gomega assertions
