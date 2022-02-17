@@ -89,7 +89,7 @@ func (k *Keywords) Search(pkgs []string) (first error) {
 			if res != nil && res.Len() == 1 {
 				if named, ok := res.At(0).Type().(*types.Named); ok {
 					switch named.Obj().Name() {
-					case "GomegaAssertion", "GomegaAsyncAssertion":
+					case "Assertion", "AsyncAssertion":
 						k.Assertions = append(k.Assertions, fn.Name())
 					case "GomegaMatcher":
 						k.Matchers = append(k.Matchers, fn.Name())
